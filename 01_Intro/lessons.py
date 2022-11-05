@@ -15,3 +15,13 @@ print("\n")
 
 # gradebook.append(("BeautifulSoup", 0))
 # gradebook.append(("Tensorflow", 0))
+
+# Lesson 4
+import pandas as pd
+import codecademylib3_seaborn
+
+# Load data
+df = pd.read_csv('page_visits.csv')
+
+# Display data
+print(df.head())
